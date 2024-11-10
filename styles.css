@@ -1,0 +1,40 @@
+@media (max-width: 576px) {
+    .get-ride-btn {
+        text-align: left;
+        width: 60px;
+        padding: 5px;
+        font-size: 12px;
+        margin-left: auto;
+    }
+}
+
+.hover-underline:hover {
+    text-decoration: underline !important;
+}
+
+.continents-dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.transparent-white {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+}
+
+#phone::placeholder {
+    color: #aaa;
+    font-size: 1em;
+}
+
+.small-input-group {
+    width: 60%; 
+}
+
+.small-input-group .form-control,
+.small-input-group .input-group-text,
+.input-smaller {
+    height: 20px; 
+    font-size: 0.7rem; 
+}
